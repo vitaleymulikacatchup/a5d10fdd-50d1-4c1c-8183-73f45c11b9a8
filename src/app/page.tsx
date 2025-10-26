@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -10,7 +10,7 @@ import TestimonialCardThree from '@/components/sections/testimonial/TestimonialC
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Award, Calendar, CheckCircle, Code, Heart, Lightbulb, MessageCircle, Palette, Sparkles, Star, Target, TrendingUp, Users } from 'lucide-react';
+import { Award, Calendar, CheckCircle, Code, Heart, Lightbulb, MessageCircle, Palette, Sparkles, Star, Target, TrendingUp, Users, Linkedin, Twitter, Dribbble, Instagram, Github } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -152,11 +152,11 @@ export default function Home() {
               imageAlt: "Sarah Chen - Creative Director",
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/sarah-chen"
                 },
                 {
-                  icon: "Twitter",
+                  icon: Twitter,
                   url: "https://twitter.com/sarahchen"
                 }
               ]
@@ -170,11 +170,11 @@ export default function Home() {
               imageAlt: "Marcus Johnson - Lead Designer",
               socialLinks: [
                 {
-                  icon: "Dribbble",
+                  icon: Dribbble,
                   url: "https://dribbble.com/marcus"
                 },
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/marcus.design"
                 }
               ]
@@ -188,11 +188,11 @@ export default function Home() {
               imageAlt: "Elena Rodriguez - Strategy Director",
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/elena-rodriguez"
                 },
                 {
-                  icon: "Twitter",
+                  icon: Twitter,
                   url: "https://twitter.com/elena_strategy"
                 }
               ]
@@ -206,11 +206,11 @@ export default function Home() {
               imageAlt: "David Park - Tech Lead",
               socialLinks: [
                 {
-                  icon: "Github",
+                  icon: Github,
                   url: "https://github.com/davidpark"
                 },
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/david-park-dev"
                 }
               ]
